@@ -34,7 +34,7 @@ void sigfunc(int sig)
 
         if (sem_destroy(&chair_sem) < 0)
         {
-            printf("Coildn't close chair_sem\n");
+            printf("Couldn't close chair_sem\n");
         }
         else
         {
@@ -43,7 +43,7 @@ void sigfunc(int sig)
 
         if (sem_destroy(&hairdresser_sem) < 0)
         {
-            printf("Coildn't close hairdresser_sem\n");
+            printf("Couldn't close hairdresser_sem\n");
         }
         else
         {
