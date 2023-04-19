@@ -189,7 +189,6 @@ int main()
         printf("%d sat in the chair\n", getpid());
         addr_pid[0] = getpid();
         sem_post(&addr_sems[1]); // hairdresser+
-        sem_wait(&addr_sems[2]); // done-
     }
 
     return 0;
