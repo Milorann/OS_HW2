@@ -29,8 +29,6 @@ void sigfunc(int sig)
         return;
     }
 
-    printf("The hairdresser's is closing\n");
-
     if (getpid() == pid)
     {
 
@@ -162,7 +160,7 @@ int main()
             printf("Haidresser got client %d\n", addr_pid[0]);
             sleep(5);
             printf("Client %d got haircut\n", addr_pid[0]);
-            printf("%d released the chair\n", addr_pid[0]);
+            printf("%d leaves\n\n", addr_pid[0]);
             kill(addr_pid[0], SIGINT);
             printf("Hairdresser goes to sleep\n");
             sem_post(&addr_sems[0]); // chair+
@@ -170,7 +168,7 @@ int main()
     }
     else
     { // Clients creator
-        printf("Creator pid = %d, ppid = %d\n", getpid(), getppid());
+        printf("Creator pid = %d, ppid = %d\n\n", getpid(), getppid());
 
         while (1)
         { 
