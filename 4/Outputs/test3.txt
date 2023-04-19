@@ -1,1 +1,45 @@
+Opened chair_sem
+Opened hairdresser_sem
+Hairdresser pid = 3515, ppid = 1845
+Haidresser 3515 started working
+Creator pid = 3516, ppid = 3515
 
+Client 3517 came to hairdresser's and got in line
+3517 sat in the chair
+Haidresser got client 3517
+Client 3518 came to hairdresser's and got in line
+Client 3519 came to hairdresser's and got in line
+Client 3517 got haircut
+3517 leaves
+
+Hairdresser goes to sleep
+3518 sat in the chair
+Haidresser got client 3518
+Client 3520 came to hairdresser's and got in line
+Client 3518 got haircut
+3518 leaves
+
+Hairdresser goes to sleep
+3519 sat in the chair
+Haidresser got client 3519
+Client 3521 came to hairdresser's and got in line
+Client 3519 got haircut
+3519 leaves
+
+Hairdresser goes to sleep
+3520 sat in the chair
+Haidresser got client 3520
+Client 3520 got haircut
+3520 leaves
+
+Hairdresser goes to sleep
+3521 sat in the chair
+Haidresser got client 3521
+Client 3524 came to hairdresser's and got in line
+^CClosed chair_sem
+Closed hairdresser_sem
+Client 3516 says bye!!!
+
+Hairdresser 3515 says bye!!!
+
+Client 3524 says bye!!!
