@@ -1,1 +1,66 @@
+Hairdresser pid = 3649, ppid = 1891
+Haidresser 3649 started working
+Creator pid = 3650, ppid = 3649
 
+Client 3651 came to hairdresser's and got in line
+3651 sat in the chair
+Haidresser got client 3651
+Client 3651 got haircut
+3651 leaves
+
+Hairdresser goes to sleep
+Client 3652 came to hairdresser's and got in line
+3652 sat in the chair
+Haidresser got client 3652
+Client 3652 got haircut
+3652 leaves
+
+Hairdresser goes to sleep
+Client 3653 came to hairdresser's and got in line
+3653 sat in the chair
+Haidresser got client 3653
+Client 3654 came to hairdresser's and got in line
+Client 3653 got haircut
+3653 leaves
+
+Hairdresser goes to sleep
+3654 sat in the chair
+Haidresser got client 3654
+Client 3654 got haircut
+3654 leaves
+
+Hairdresser goes to sleep
+Client 3655 came to hairdresser's and got in line
+3655 sat in the chair
+Haidresser got client 3655
+Client 3655 got haircut
+3655 leaves
+
+Hairdresser goes to sleep
+Client 3656 came to hairdresser's and got in line
+3656 sat in the chair
+Haidresser got client 3656
+Client 3656 got haircut
+3656 leaves
+
+Hairdresser goes to sleep
+Client 3657 came to hairdresser's and got in line
+3657 sat in the chair
+Haidresser got client 3657
+Client 3657 got haircut
+3657 leaves
+
+Hairdresser goes to sleep
+Client 3658 came to hairdresser's and got in line
+3658 sat in the chair
+Haidresser got client 3658
+Client 3658 got haircut
+3658 leaves
+
+Hairdresser goes to sleep
+Client 3659 came to hairdresser's and got in line
+3659 sat in the chair
+Haidresser got client 3659
+^CClient 3650 says bye!!!
+
+Hairdresser 3649 says bye!!!
