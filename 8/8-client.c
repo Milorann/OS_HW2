@@ -74,10 +74,6 @@ void init()
         printf("Hairdresser's is closed\n");
         exit(-1);
     }
-    else
-    {
-        semctl(chair_sem, 0, SETVAL, 0);
-    }
 
     key_t hairdresser_sem_key;
     if ((hairdresser_sem_key = ftok("8-hairdresser.c", 2)) < 0)
@@ -90,10 +86,6 @@ void init()
         printf("Hairdresser's is closed\n");
         exit(-1);
     }
-    else
-    {
-        semctl(hairdresser_sem, 0, SETVAL, 0);
-    }
 }
 
 int main()
@@ -104,19 +96,6 @@ int main()
     srand(time(NULL));
 
     init();
-
-    printf("Creator pid = %d, ppid = %d\n\n", getpid(), getppid());
-
-    while (1)
-    {
-        // Clients come every 1 - 10 seconds
-        sleep(rand() % 10 + 1);
-
-        if (fork() == 0)
-        {
-            break;
-        }
-    }
 
     printf("Client %d came to hairdresser's and got in line\n", getpid());
 
