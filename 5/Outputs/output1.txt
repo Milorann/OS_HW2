@@ -1,1 +1,45 @@
+Hairdresser pid = 2570, ppid = 1891
+Haidresser 2570 started working
+Creator pid = 2571, ppid = 2570
 
+Client 2572 came to hairdresser's and got in line
+2572 sat in the chair
+Haidresser got client 2572
+Client 2572 got haircut
+2572 leaves
+
+Hairdresser goes to sleep
+Client 2573 came to hairdresser's and got in line
+2573 sat in the chair
+Haidresser got client 2573
+Client 2573 got haircut
+2573 leaves
+
+Hairdresser goes to sleep
+Client 2574 came to hairdresser's and got in line
+2574 sat in the chair
+Haidresser got client 2574
+Client 2575 came to hairdresser's and got in line
+Client 2574 got haircut
+2574 leaves
+
+Hairdresser goes to sleep
+2575 sat in the chair
+Haidresser got client 2575
+Client 2575 got haircut
+2575 leaves
+
+Hairdresser goes to sleep
+Client 2576 came to hairdresser's and got in line
+2576 sat in the chair
+Haidresser got client 2576
+Client 2579 came to hairdresser's and got in line
+Client 2576 got haircut
+2576 leaves
+
+Hairdresser goes to sleep
+2579 sat in the chair
+Haidresser got client 2579
+^CClient 2571 says bye!!!
+
+Hairdresser 2570 says bye!!!
